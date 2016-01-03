@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en"> <!--使得浏览器好找到-->
+    <meta charset="UTF-8"> <!--指定html的编码方式-->
+    <title></title>
+</head>
+<body  bgcolor="white">
+<!--文本域-->
+<form>
+    First name:
+    <input type="text" name="firstname"/>
+    <br/>
+    Last name:
+    <input type="text" name="lastname"/>
+</form>
+
+<!--单选按钮-->
+<form>
+    <input type="radio" name="sex" value="male" />Male
+    <br/>
+    <input type="radio" name="sex" value="female"/>female
+</form>
+
+<!--复选框-->
+<form>
+    <input  type="checkbox" name="bike" />
+    I have a bike
+    <br/>
+    <input type="checkbox" name="car" />
+    I have  a car
+</form>
+
+<!--下拉菜单-->
+<form>
+    <select name="bike" >
+        <option value="volvo">volvo</option>
+        <option value="saab">saab</option>
+        <option value="fiat" selected = "selected">fiat</option>
+        <option value="audi">audi</option>
+    </select>
+
+</form>
+
+<!--textare-->
+<textarea rows="10" cols="30">
+</textarea>
+
+<!--创建按钮-->
+<form>
+    <input type="button" value="Hello World">
+</form>
+
+<!--fieldset-->
+<form>
+    <fieldset>
+        <legend>健康信息</legend>
+        身高：<input type="text">
+    </fieldset>
+</form>
+</body>
+</html>

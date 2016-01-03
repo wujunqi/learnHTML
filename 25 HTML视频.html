@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en"> <!--使得浏览器好找到-->
+    <meta charset="UTF-8"> <!--指定html的编码方式-->
+
+</head>
+
+<body>
+
+<!--最好的HTML解决方法：-->
+<video width="320" height="240" controls="controls">
+    <source src="src/video/1.mp4" type="video/mp4"/>
+    <source src="src/video/1.ogg" type="video/ogg"/>
+    <source src="src/video/1.webm" type="video/webm"/>
+    <object data="src/video/1.mp4" width="320" height="240">
+        <embed src = "src/video/1.mp4" width="320" height = "240"/>
+    </object>
+
+</video>
+
+<!--优酷视频-->
+<embed src="http://player.youku.com/player.php/sid/XMzI2NTc4NTMy/v.swf" width="480" height = "400"
+       type = "application/x-shockwave-flash">
+
+</embed>
+</body>
+
+</html>
